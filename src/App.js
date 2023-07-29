@@ -9,6 +9,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>what was that error last time</p>
+        <img src="../../public/download1.jpg" alt='downloaded pic' width="200px"></img>
+        <p>next line to check</p>
         <a
           className="App-link"
           href="https://reactjs.org"
