@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LoginPage/static/css/main.77052ab3.css",
+    "main.js": "/LoginPage/static/js/main.ecf73432.js",
+    "static/js/787.7f320c1d.chunk.js": "/LoginPage/static/js/787.7f320c1d.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/LoginPage/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/LoginPage/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/LoginPage/index.html",
+    "main.77052ab3.css.map": "/LoginPage/static/css/main.77052ab3.css.map",
+    "main.ecf73432.js.map": "/LoginPage/static/js/main.ecf73432.js.map",
+    "787.7f320c1d.chunk.js.map": "/LoginPage/static/js/787.7f320c1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77052ab3.css",
+    "static/js/main.ecf73432.js"
+  ]
+}
