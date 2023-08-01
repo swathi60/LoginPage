@@ -1,0 +1,46 @@
+
+.LoginHome {
+  
+  background-image: linear-gradient(to right, rgba(175, 254, 254, 0.781), rgba(128, 128, 128, 0.479));
+  width: 100vw; height: 100vh; display: grid;  justify-content: center; align-items: center; 
+  
+}
+.pageback{  
+  width: 40vw; height: 50vh; background-color: white; 
+  border: 1px solid transparent; box-shadow: 2.5px 2.5px 8px gray; border-radius: 10px; 
+ display: grid; grid-template-rows: 10vh auto auto;
+
+}
+
+@media only screen and (min-width:200px) and (max-width:320px) {
+  .pageback {
+    width: 75vw; height: 90vh; 
+  }
+}
+@media only screen and (min-width:321px) and (max-width:415px) {
+  .pageback {
+    width: 75vw; height: 70vh; 
+  }
+}
+@media only screen and (min-width:416px) and (max-width:1280px) {
+  .pageback {
+    width: 60vw; height: 70vh;
+  }
+}
+@media only screen and (min-width:1280px) {
+  
+  .pageback {
+    width: 30vw; height:70vh;
+  }
+}
+@media (orientation:landscape)and (max-height:768px){
+  .LoginHome{height: 100vw;}
+  .pageback{width: 30vw; height:40vw;  }
+
+}
+@media (orientation:landscape)and (min-height:200px) and (max-height:415px){
+  .LoginHome{height: 100vw;}
+  .pageback{width: 40vw; height:70vw; }
+
+}
+

@@ -1,0 +1,43 @@
+
+.body1{
+    width: 100%;
+    display: flex;  font-size: 1em; justify-content: center;
+}
+
+input[type="text"], input[type='password']{ border: none; } 
+dt{padding-bottom: 2px;}
+dd{
+    border-bottom: 1px solid rgb(194, 185, 185); 
+}
+
+.bi-person, .bi-lock{ color: grey;}
+dd:hover{ border:none; } 
+ input[type=text]:focus, input[type=password]:focus{ margin-top: 5px;
+     border-color: #86b7fe;
+  outline: 0; border-radius: 5px;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+
+}
+#p1{
+    font-size: 0.8em; text-align: right; text-decoration: none; color: grey;
+} 
+a{float: right;}
+
+.button1{display: flex; justify-content: center; margin-top: 10px;}
+
+.btn1{float: none; padding: 2px; 
+    text-align: center; background-image: linear-gradient(to right, rgba(175, 254, 254, 0.8), rgba(128, 128, 128, 0.553));
+border: none; border-radius: 20px; }
+
+@media screen and (max-width:359px) {
+    .body1{ padding: 5px; } .btn1{width: 75%;}
+}
+@media screen and (min-width:360px ) and (max-width:420px) {
+    .body1{ padding: 5px; } .btn1{width: 70%;}
+}
+@media screen and (min-width:421px ) and (max-width:760px) {
+    .body1{ padding: 5px; } .btn1{width: 45%;}
+}
+@media  screen and (min-width:761px)  {
+    .btn1{width: 40%;}
+}
